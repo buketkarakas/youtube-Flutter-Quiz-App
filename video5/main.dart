@@ -18,6 +18,8 @@ class _MyAppState extends State<MyApp> {
     "En çok hangi hayvanı seversin",
     "En çok hangi yemeği seversin",
     "En çok hangi hayvanı seversin",
+    "En çok hangi yemeği seversin",
+    "En çok hangi hayvanı seversin",
     "En çok hangi yemeği seversin"
   ];
 
@@ -25,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       soruNumarasi++;
     });
-
+    //soruNumarasi = soruNumarasi + 1;
     print(soruNumarasi);
   }
 
